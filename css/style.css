@@ -1,6 +1,9 @@
 *{
 	color: #333333;
 }
+body { 
+    padding-top: 50px; 
+}
 @font-face{
 	font-family:myFont;
 	src:url(futura.ttf);
@@ -69,10 +72,6 @@ b{
 	font-family: Georgia;
 }
 
-.img{
-	margin-left: 10px;
-	float: left;
-}
 .photo{
 
 	border-radius: 100px;
@@ -80,9 +79,6 @@ b{
 	height: 200px;
 }
 
-.name{
-	float: left;
-}
 
 .under{
 	font-family: myFont;
@@ -91,13 +87,22 @@ b{
 	margin-top: 20px;
 	margin-left: 20px;
 }
-.left{
-	float: right;
-	font-size: 12pt;
+.jumbotron-name{
+	float: left;
+	height: 100%;
+
+	vertical-align: center;
+
 }
 
 
-
+hr{
+	 height: 1px;
+    border: 0;
+    border-top: 1px solid #000;
+    margin: 1em 0;
+    padding: 0;
+}
 
 .text{
 	
@@ -120,8 +125,7 @@ b{
 	margin-left: 10px;
 }
  .edudiv{
- 	margin-left: 10px;
- 	display: inline-block;
+ 
  	margin-top: 20px;
  	
  }
